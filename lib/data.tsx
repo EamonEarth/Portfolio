@@ -13,17 +13,28 @@ import lowdingThumbnail from "/public/portfolio/lowdingThumbnail.png"
 import portThumbnail from "/public/portfolio/portThumbnail.png"
 import phasmicThumbnail from "/public/portfolio/phasmicThumbnail.png"
 
-export const experience = [
+export const EXPERIENCE = [
     {
-      id: 0,
-      title: "Web Developer",
-      employer: "WACMN",
-      subtitle: "Western Australian Coastal and Marine Management Network",
-      times: "2024 - ",
-      description:
-        "Currently the primary web developer for the WACMN's modernisation scheme. Tasked with collating info, structuring databases and creating web apps with React to fulfil the organisation's government brief.",
-      link: "https://wacmnstewards.info",
-    },
+    id: 0,
+    title: "Lead Developer",
+    employer: "WACMN",
+    subtitle: "Western Australian Coastal and Marine Management Network",
+    times: "2024 - ",
+    description: (
+      <>
+        Currently working on an Angular/Spring Boot platform that functions 
+        as a membership hub, workspace and stakeholder network. Previously built 
+        a <a
+          href="https://wacmnstewards.info"
+          // className="!text-blue-500 underline"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "#3B82F6", textDecoration: "underline", fontWeight: "500" }}
+        >React/Next.js app</a> for a dynamic Stakeholder map across Australia. 
+      </>
+    ),
+    link: "https://wacmnstewards.info",
+  },
     {
       id: 1,
       title: "Developer •",
@@ -31,7 +42,7 @@ export const experience = [
       subtitle: "Frontend & web development",
       times: "2022 - ",
       description:
-        "Web apps and frontends. Daily usage of React, Next.js, HTML5, Typescript, Node.js, CSS & Figma. Design, coding, backend set-up and deployment. Special emphasis on accessibility and reliability. See Projects below for some examples. ",
+        "Web apps and frontends. Daily usage of React, Next.js, Typescript, Node.js, HTML5, SCSS & Figma. Design, coding, backend set-up and deployment. Special emphasis on accessibility and reliability. See Projects below for some examples. ",
       link: "https://eamontravers.dev/#projects",
     },
     {

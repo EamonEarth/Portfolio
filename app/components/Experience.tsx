@@ -2,8 +2,8 @@
 
 import React, { MouseEventHandler, useEffect, useState } from "react";
 import Link from "next/link";
+import { EXPERIENCE } from "@/lib/data";
 import { cn, debounce } from "@/lib/utils";
-import { experience } from "@/lib/data";
 import { ArrowUpRight } from "lucide-react";
 
 interface ExperienceProps {
@@ -37,8 +37,8 @@ const Experience = ({ showModal, navRef }: ExperienceProps) => {
     let itemMeasurements = updateMeasurements();
 
     const findCenterMostElementAndUpdateClass = () => {
-      const viewportCenter = window.innerHeight / 2 + window.scrollY;
-      let centerMostElement = null;
+    const viewportCenter = window.innerHeight / 2 + window.scrollY;
+    let centerMostElement = null;
       let minDistanceToCenter = Infinity;
 
       itemMeasurements.forEach(({ elem, top, center, height }, index) => {
@@ -133,7 +133,7 @@ const Experience = ({ showModal, navRef }: ExperienceProps) => {
         </h1>
       </div>
       <ol className="text-primary-foreground lg:max-w-md flex flex-col gap-y-10">
-        {experience.map((job) => (
+        {EXPERIENCE.map((job) => (
           <div
             key={job.title}
             className="w-auto h-auto experience-item experience-item-opac hover-boundary rounded-xl opacity-60 md:opacity-40 hover:!opacity-100 md:py-8 pt-4 lg:py-4

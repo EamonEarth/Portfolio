@@ -102,7 +102,7 @@ const ProjectsGrid = ({
             <div
               className={cn(
                 `lg:w-3/4 w-full h-fit aspect-[16/9] object-contain relative 
-                bg-gradient-to-l from-teal-500/10 to-teal-500/10 via-transparent backdrop-blur-md rounded md:rounded-3xl border border-teal-800/50 
+                bg-gradient-to-l from-teal-500/10 to-teal-500/10 via-transparent backdrop-blur-md rounded border border-teal-800/50 
                 md:py-[5%]`)}
             >
               {project.name === "Phasmic" ? 

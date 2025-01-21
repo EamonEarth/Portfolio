@@ -54,13 +54,12 @@ const About = ({ showModal, navRef }: AboutProps) => {
               </p>
               <p className="">
                 I&apos;m a generalist/polymath who loves making things work. With 
-                a degree in Mathemathics, specializations in Software Engineering, Frontend Development & UX design specializations from HKUST, IBM and Google, I&apos;m happy
-                making web apps, frontends, custom algorithms or new things. I love coding intuitive and engaging frontend
-                interfaces, leveraging up-to-date technologies and getting excited
-                about new projects.
+                a degree in Mathemathics and specializations in Software Engineering, Frontend Development & UX design from HKUST, IBM and Google, I&apos;m happy
+                coding fullstack apps, AI agents, frontends or business logic. My main foundations are NextJS, Angular, Spring Boot, NodeJS, Python, Java, Typescript, Postgres, Mongo & Git, and I love getting excited
+                about new projects or stacks.
               </p>
               <p className="mt-2">
-                From my developer specializations, I bring real world developer know-how. From my maths degree, I bring logical thinking.
+                From my developer specializations, I bring real world developer know-how. From my maths degree, logical thinking.
                 From my logistical work, attention to detail and pragmatic focus on deliverables,
                 and from my music career, consumer-centric creation and plenty of soft skills. 
           
